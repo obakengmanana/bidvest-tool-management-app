@@ -1,5 +1,4 @@
-
-# On terminal, navigate into plus-narrative\plus-assessment folder.
+# On terminal, navigate into \bidvest-assessment folder.
 cd .\bidvest-assessment\  
 
 ## update all dependencies
