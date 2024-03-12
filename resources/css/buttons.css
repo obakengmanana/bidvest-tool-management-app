@@ -1,0 +1,48 @@
+.btn-indigo {
+  padding: 6px 24px;
+  border-radius: 7px;
+  background-color: rgb(17 24 39);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  white-space: nowrap;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  line-height: 1.5;
+  transition: background-color 0.3s ease;
+}
+
+.btn-indigo:hover,
+.btn-indigo:focus {
+  background-color: rgb(75 85 99);
+  color: #ffffff;
+}
+
+.btn-spinner,
+.btn-spinner:after {
+  border-radius: 50%;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.btn-spinner {
+  font-size: 10px;
+  position: relative;
+  text-indent: -9999em;
+  border-top: 0.2em solid white;
+  border-right: 0.2em solid white;
+  border-bottom: 0.2em solid white;
+  border-left: 0.2em solid transparent;
+  transform: translateZ(0);
+  animation: spinning 1s infinite linear;
+}
+
+@keyframes spinning {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
